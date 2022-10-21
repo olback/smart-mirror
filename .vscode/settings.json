@@ -1,0 +1,6 @@
+{
+    "editor.formatOnSave": true,
+    "html.format.indentHandlebars": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.renderWhitespace": "all"
+}

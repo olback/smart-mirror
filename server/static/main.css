@@ -1,0 +1,39 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+div.weather {
+    display: grid;
+    grid-template-columns: min-content max-content;
+    column-gap: 1rem;
+    align-items: center;
+}
+
+div.weather>div.large-icon {
+    font-size: 6rem;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+div.weather>div.info {
+    align-items: center;
+    row-gap: 0.2rem;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    font-weight: 300;
+}
+
+div.weather>div.info>div.descr {
+    font-size: 4rem;
+    line-height: 4rem;
+}
+
+div.weather>div.info>div.other>div.temperature,
+div.weather>div.info>div.other>div.humidity {
+    font-weight: 400;
+    display: inline;
+    padding-right: 1rem;
+}
